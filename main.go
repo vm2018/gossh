@@ -96,7 +96,7 @@ func main() {
 	// refer to https://godoc.org/golang.org/x/crypto/ssh for other authentication types
 	sshConfig := &ssh.ClientConfig{
 		// SSH connection username
-		User: "operatore",
+		User: "eosssh",
 		Auth: []ssh.AuthMethod{
 			// put here your private key path
 			publicKeyFile("/root/snap/envision/.ssh/id_rsa"),
